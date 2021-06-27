@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lora', serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: lavender;
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    margin-top: 50px;
+    width: 500px;
+}
+input{
+    width: 50%;
+    border-width:2px;
+    margin: 0;
+    padding:0 ;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border-style: solid;
+    filter: drop-shadow(-2px 12px 4px rgba(0, 0, 0, 0.25));
+}
+
+input:focus{
+    outline: none;
+    padding-left: 10px;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(-2px 12px 4px rgba(0, 0, 0, 0.25));
+}
+.title .main{
+    font-size: 64px;
+    color: #242323;
+}
+.title .desc{
+    font-size: 15px;
+    color: #727070;
+    text-align: center;
+}
+.bookmark_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    margin-top: 10px;
+}
+.bookmark_title{
+    width: 50%;
+    background-color:none;
+    border: solid;
+    border-color: #464646;
+    border-width: 2px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    filter: drop-shadow(-2px 12px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button{
+    margin-left: 10px;
+    width: 34px;
+    height: 34px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #464646;
+    background:none;
+    border-radius: 6px;
+    filter: drop-shadow(-2px 12px 4px rgba(0, 0, 0, 0.25));
+}
+.button a {
+    text-decoration: none;
+    color: black;
+}
+.gobutton{
+    border-color: #44881A;
+}
+.gobutton i{
+    color: #44881A;
+}
+.editbutton{
+    border-color: #282457;
+}
+.editbutton i{
+    color: #282457;
+}
+.removebutton{
+    border-color: #88271A;
+}
+.removebutton i{
+    color: #88271A;
+}
+.editnew{
+    padding:inherit;
+    padding-left: 10px;
+    background-color: transparent;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
